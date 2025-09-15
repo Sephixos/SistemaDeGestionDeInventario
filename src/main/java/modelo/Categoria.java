@@ -5,9 +5,9 @@ import java.util.*;
 Autores: 
 Grupo 5: Edgar Bonilla, Javier Norberto Vargas Clavijo, Ronald Stiven Cardenas Aguilar
  
-Clase que representa una categor�a de productos.
-Contiene informaci�n general y los atributos espec�ficos que los productos
-de esta categor�a deben tener.
+Clase que representa una categoría de productos.
+Contiene información general y los atributos específicos que los productos
+de esta categoría deben tener.
 */
 
 public class Categoria {
@@ -22,11 +22,11 @@ public class Categoria {
         this.atributosEspecificos = atributosEspecificos;
     }
 
-    // Getters para acceder a las propiedades de la categor�a.
+    // Getters para acceder a las propiedades de la categoría.
     public String getNombre() {
         return nombre;
     }
-    // Obtiene la descripci�n de la categor�a
+    // Obtiene la descripción de la categoría
     public String getDescripcion() {
         return descripcion;
     }
@@ -34,7 +34,7 @@ public class Categoria {
     public List<String> getAtributosEspecificos() {
         return atributosEspecificos;
     }
-    // Sobreescribe el m�todo toString()
+    // Sobreescribe el método toString()
     @Override
     public String toString() {
         return "Categoria [nombre=" + nombre + ", descripcion=" + descripcion + "]";
