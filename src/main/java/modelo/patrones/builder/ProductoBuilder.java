@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package modelo.patrones.builder;
+import modelo.Categoria;
+import modelo.Producto;
+
 
 /**
- *
- * @author Edgar
- */
+Autores: 
+Grupo 5: Edgar Bonilla, Javier Norberto Vargas Clavijo, Ronald Stiven Cardenas Aguilar
+ 
+Interfaz "Builder" del patrón de diseño Builder.
+Define los pasos necesarios para construir un objeto Producto.
+*/
+
 public interface ProductoBuilder {
-    
+    ProductoBuilder conNombre(String nombre);
+    ProductoBuilder conPrecio(double precio);
+    ProductoBuilder conCantidadEnInventario(int cantidad);
+    ProductoBuilder paraCategoria(Categoria categoria);
+    ProductoBuilder conAtributo(String nombreAtributo, String valorAtributo);
+    Producto construir(); 
 }
