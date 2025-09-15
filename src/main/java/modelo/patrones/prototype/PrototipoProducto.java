@@ -5,9 +5,9 @@ import modelo.Producto;
 Autores: 
 Grupo 5: Edgar Bonilla, Javier Norberto Vargas Clavijo, Ronald Stiven Cardenas Aguilar
 
-Interfaz "Prototype" del patr�n de dise�oo Prototype.
-Define un m�todo para que los objetos puedan clonarse a s� mismos.
-La Clase Producto implementa el metodo clonar() de esta interface para hacer la clonaci�n
+Interfaz "Prototype" del patrón de diseño Prototype.
+Define un método para que los objetos puedan clonarse a si mismos.
+La Clase Producto implementa el metodo clonar() de esta interface para hacer la clonación
 */
 
 public interface PrototipoProducto {
